@@ -1,0 +1,26 @@
+<%- include ('../partials/header') %>
+<%- include ('../partials/menu') %>
+<%- include ('../partials/message') %>
+
+<main>
+    <body class = "home">
+        <br>
+        <br>
+        <div class="container">
+        <h1 class="title">SEARCH AND LEARN ABOUT YOUR ARTIST</h1>
+        <br>
+        <br>
+        <form class="searchBar" action="/search" method="GET">
+            <div class="input-group">
+                <input type="text" class="form-control" id="search-input" placeholder="Search" aria-label="Search" 
+                aria-describedby="search-addon" name="searchTerm" id="searchTerm" placeholder="Search" />
+                <button type="submit" class="btn btn-outline-light">Search</button>
+            </div>
+        </form>
+        <br>
+    </body>
+</main>
+
+
+
+<%- include ('../partials/footer') %>

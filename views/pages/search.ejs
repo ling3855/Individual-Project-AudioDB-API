@@ -1,0 +1,52 @@
+<%- include ('../partials/header') %>
+<%- include ('../partials/menu') %>
+<%- include ('../partials/message') %>
+
+<!-- Creating tables that insearts data collected from GET /search API -->
+<main>
+  <body class = "search">
+      <br>
+      <br>
+      <div class = "container" id="">
+          <img src="<%= artistBanner %>" class="banner" />
+          <br>
+          <br>
+          <br>
+            <table class="table align-middle">  
+              <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td class = "titleRow"><b>Name:</b></td>
+                    <td class = "aboutArtist"><%= artistName %></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td class = "titleRow"><b>Website:</b></td>
+                    <td class = "aboutArtist"><%= artistWebsite %></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td class = "titleRow"><b>Formation Year:</b></td>
+                    <td class = "aboutArtist"><%= formedYear %></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td class = "titleRow"><b>Genre(s):</b></td>
+                    <td class = "aboutArtist"><%= artistGenre %></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td class = "titleRow"><b>Biography:</b></td>
+                    <td class = "aboutArtist"><%= biographyEN %></td>
+                  </tr>
+                </tbody>
+              </table>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+  </body>
+</main>
+<%- include ('../partials/footer') %>

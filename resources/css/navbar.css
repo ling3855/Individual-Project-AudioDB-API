@@ -1,0 +1,31 @@
+
+.navbar{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-image: linear-gradient(-90deg, #f65ab8, #e756f7, #6d53ff);
+}
+
+.navbar .btndrop{
+    background-image: linear-gradient(-90deg, #e57f2c);
+    outline: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.navbar .navbar-brand{
+    font-size: 24px;
+    font-family: 'Pacifico', cursive  !important;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 20px rgb(180, 18, 255), 0 0 30pxrgb(237, 45, 255), 0 0 10px rgb(243, 21, 255);
+}
+
+.navbar .nav-item{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+

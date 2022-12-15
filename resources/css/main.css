@@ -1,0 +1,57 @@
+.home{
+    
+    background: rgb(47, 56, 69);
+    
+}
+
+
+h1.title {
+    font-size: 4rem;
+    padding-top: 13%;
+    text-align: center;
+    font-weight: bold;
+    color:#d285f6;
+    text-shadow: 2px 2px 4px rgb(208, 18, 255), 0 0 8px rgb(0, 0, 0), 0 0 0px rgb(212, 21, 255);
+    
+}
+
+
+
+::placeholder{
+    color: #ffffff;
+}
+
+.searchBar .form-control{
+    border-radius: 20px;
+    box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+}
+
+.searchBar .btn{
+    height: 45px;
+    width: 15%;
+    border: none;
+    outline: none;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #8b77ff;
+    color: white;
+    box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+    
+}
+
+.searchBar .btn:hover{
+    background: #f65ab8;
+    transition: 0.4s;
+    color: white;
+}
+
+.footer {
+    background-image: linear-gradient(-90deg,  #6d53ff, #e756f7, #f65ab8 );
+}
+

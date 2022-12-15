@@ -1,0 +1,20 @@
+.search{
+    
+    background: rgb(47, 56, 69);
+    
+}
+
+.search td{
+    color: white;
+}
+
+.search .banner{
+    height: 10%;
+    width: 100%;
+}
+
+.search .banner{
+    box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 8px 4px 11px 4px rgba(0,0,0,0.45);
+}
